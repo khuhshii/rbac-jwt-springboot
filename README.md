@@ -2,7 +2,7 @@
 
 This project demonstrates the implementation of **JWT Authentication and Authorization** for the FitRack application. It secures the API endpoints and manages role-based access control (RBAC) for users.
 
----
+
 
 ## Features
 
@@ -19,7 +19,7 @@ This project demonstrates the implementation of **JWT Authentication and Authori
 - Tokens include role-based claims for fine-grained access control.
 - Automatic token validation and role extraction during requests.
 
----
+
 
 ## Technology Stack
 
@@ -30,7 +30,7 @@ This project demonstrates the implementation of **JWT Authentication and Authori
 - **BCrypt**: Password encryption for secure storage.
 - **MySQL (via JPA)**: User persistence.
 
----
+
 
 ## Endpoints
 
@@ -40,7 +40,7 @@ This project demonstrates the implementation of **JWT Authentication and Authori
 | `/api/admin_only/register`| POST   | Admin          | Register a new user.                        |
 | `/api/login`              | POST   | All Users      | Authenticate and receive a JWT.             |
 
----
+
 
 ## Security Configuration
 
@@ -53,7 +53,7 @@ This project demonstrates the implementation of **JWT Authentication and Authori
 - **Password Encoding**:
   - `BCryptPasswordEncoder` ensures password hashing.
 
----
+
 
 ## JWT Implementation
 
