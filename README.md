@@ -1,6 +1,6 @@
-# FitRack Authentication and Authorization
+# Authentication and Authorization
 
-This project demonstrates the implementation of **JWT Authentication and Authorization** for the FitRack application. It secures the API endpoints and manages role-based access control (RBAC) for users.
+This project demonstrates the implementation of **JWT Authentication and Authorization** for an application. It secures the API endpoints and manages role-based access control (RBAC) for users.
 
 
 
